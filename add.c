@@ -1,18 +1,15 @@
 #include<stdio.h>
-int main(){
 
-int a=27;
-int b=95;
-int c=55;
-float simple_interest=(a*b*c)/100;
-printf("%d",a);
-printf("%d",b);
-printf("%d",c);
-printf("%f",simple_interest);
+  int main(){
+  int a,b,c;
+
+  printf("the value of a= \n");
+  scanf("%d",&a);
+  printf("the value of b= \n");
+  scanf("%d",&b);
+
+  c=a+b;
+
+printf("sum c=%d",c);
 return 0;
-}
-
-
-
-
-
+  }
